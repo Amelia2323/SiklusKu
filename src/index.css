@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, serif;
+
+  /* Custom feminine, medical-premium & soft health tones */
+  --color-brand-50: #fff0f3;
+  --color-brand-100: #ffdee3;
+  --color-brand-200: #ffbec8;
+  --color-brand-300: #ffa1b2;
+  --color-brand-400: #ff6e8e;
+  --color-brand-500: #f43f68;
+  --color-brand-600: #e11d4e;
+  --color-brand-700: #be123f;
+  --color-brand-800: #9f1239;
+  --color-brand-900: #851334;
+
+  --color-fertile-50: #f0fdf4;
+  --color-fertile-100: #dcfce7;
+  --color-fertile-200: #bbf7d0;
+  --color-fertile-300: #86efac;
+  --color-fertile-400: #4ade80;
+  --color-fertile-500: #22c55e;
+  --color-fertile-600: #16a34a;
+  --color-fertile-700: #15803d;
+
+  --color-luteal-50: #fef8ec;
+  --color-luteal-100: #fef0db;
+  --color-luteal-200: #fce1b5;
+  --color-luteal-300: #facc82;
+  --color-luteal-400: #f7ad4a;
+  --color-luteal-550: #ea580c;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #faf9f6; /* Elegant soft cream background */
+  color: #1e1e1a;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Gracefully styled scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #e4e4e0;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #d4d4cb;
+}

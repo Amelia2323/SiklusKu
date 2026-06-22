@@ -1,0 +1,6 @@
+{
+  "name": "Pelacak Siklus Menstruasi",
+  "description": "Aplikasi lengkap untuk mencatat siklus menstruasi, memprediksi periode berikutnya, memperkirakan masa subur, mencatat gejala harian, dan memantau tren kesehatan reproduksi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
